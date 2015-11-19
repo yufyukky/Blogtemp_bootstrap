@@ -1,13 +1,14 @@
-livedoor Blog用にclean blogのテンプレートを編集<br /><br />
+livedoor Blog用にclean blogのテンプレートを編集
 
-トップページ<br />
-index.html<br/ ><br />
+#ファイルの内容
+*index.html
+*post.html
+*CategorizedArticlesLoop.html
+*monthlyArticlesLoop.html
 
-個別記事ページ<br />
-post.html<br /><br />
+それぞれ  
+トップページ  
+個別記事  
+カテゴリアーカイブ  
+月刊アーカイブ
 
-カテゴリアーカイブ<br />
-CategorizedArticlesLoop.html<br /><br />
-
-月刊アーカイブ<br />
-monthlyArticlesLoop.html<br />
