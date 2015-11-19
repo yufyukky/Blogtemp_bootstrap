@@ -145,13 +145,13 @@
 						<$ArticleTagsList$>
 						<hr>
 						
-						<form action="http://comment.blogcms.jp/livedoor/yuf_mac/<$ArticleId$>/post" method="post" name="comment_form"onsubmit="setCommentAuthor(this); return submitOnce(this.button);">
+						<form action="http://comment.blogcms.jp/livedoor/<$BlogOwner$>/<$ArticleId$>/post" method="post" name="comment_form"onsubmit="setCommentAuthor(this); return submitOnce(this.button);">
 							<fieldset>
 								<legend>CommentForm</legend>
 								<div class="form-group">
 									<div class="form-group">
 										<label for="name">Name</label>
-										<input type="text" id="name" type="text" class="form-control" name="name" value kl_vkbd_parsed="true" />
+										<input type="text" id="name" type="text" class="form-control" name="author" required="required" value kl_vkbd_parsed="true" />
 									</div>
 									<div class="form-group">
 										<label for="email">Email</label>
@@ -291,7 +291,7 @@
 			</div>
 		</div>
 	</footer>
-	
+
 	<div id="ad2"></div>
 	<!-- Add Body Tag // -->
 	<script type="text/javascript">
